@@ -1,5 +1,4 @@
-function arraySortMethod(arr){
-    let  number = [1,2,3,4,5,6,7];
-    return number;
-    
-}
+
+let arr = [1,411,2345,4];
+arr.sort()
+console.log(arr);
