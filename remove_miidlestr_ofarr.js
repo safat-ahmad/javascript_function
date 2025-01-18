@@ -8,6 +8,7 @@ function remove(str){
     }else{
         return str.slice(0,middle) + str.slice(middle +1);
     }
+    
 }
 let myStr = "abcde";
 let result = remove(myStr);
