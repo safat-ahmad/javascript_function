@@ -1,10 +1,8 @@
 function filteringoddnumber(arr){
     let oddNumber = [];
-    let index = 0;
     for (let i = 0; i<= arr.length-1; i++){
-        if(arr[i] % 2 !== 0){
-            oddNumber[index]= arr[i]
-            index++;
+        if(arr[i] % 2 == 0){
+           oddNumber.push(arr[i])
         }
     }
     return oddNumber;
