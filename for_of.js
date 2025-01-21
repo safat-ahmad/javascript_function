@@ -4,3 +4,13 @@ for(let a of cars){
     car +=  a + "\n"
 }
 console.log(car);
+
+
+
+let name = "SAFATAHMAD";
+let names = "";
+for(let x of name){
+    names += x + "\n"
+}
+
+console.log(names);
