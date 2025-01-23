@@ -1,4 +1,11 @@
-
+let arr = [{name:"safat"},{name:"abc"},{name:"xyz"}];
+let addEmail = arr.map(function(value){
+    return {
+      name: value.name,
+      email: "safat@safat.com"
+    }
+})
+console.log(addEmail);
 
 
 //filter method
